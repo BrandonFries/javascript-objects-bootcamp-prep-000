@@ -7,6 +7,6 @@ function updatePlaylist(playlist, PhilOchs, Slowdive) {
   return Object.assign(playlist, {'Phil Ochs': 'Slowdive'})
 }
 function removeFromPlaylist(playlist, PhilOchs) {
-  delete songTitle.Slowdive
+  delete songTitle.Slowdive;
   return updatePlaylist
 }
